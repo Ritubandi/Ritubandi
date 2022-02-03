@@ -1,0 +1,126 @@
+body {
+  font-family: Roboto, Arial, sans-serif;
+  margin: 0;
+}
+
+/* Header/Logo Title */
+.header {
+  Display:flex;
+  min-width: 75px;
+  margin-left:350px;
+  margin-right: 0px;
+  width: 0%;
+  height: 20px;
+
+}
+.Navigation_bar {
+  display:flex;
+  background-color: #2874f0;
+  height: 60px;
+  align-items: center;
+  padding-right: 20px;
+}
+.searchbox {
+  display:flex;
+  border-radius: 08px 01px 01px 08px;
+  border:0;
+  outline: 0 none;
+  font-size: 14px;
+  margin:30px 20px 0px 06px;
+  width: 20%;
+  height: 28px;
+  float:center;
+  padding-bottom: 20px;
+ 
+}
+.megni{
+  align-items: center;
+  width: 30%;
+  height: 25px;
+  padding-bottom: 03px;
+ }
+.login {
+  display: flex;
+  height: 30px;
+  color: cornflowerblue;
+  padding: 05px 35px 05px 35px;
+  margin-top: 5px;
+  margin-left: 100px;
+}
+.far fa-shopping-cart {
+  text-align: center;
+  color: white;
+}
+.more {
+  display: flex;
+  text-align: center;
+  margin: 15px;
+  margin-left: 40px;
+  margin-right: 50px;
+  color: white;
+}
+div.product {
+
+  padding-left: 45px;
+  margin: 10px;
+  border: 1px;
+  float: left;
+  width: 95px;
+  height: 1px;
+  align-items:center;
+}
+div.desc {
+  padding: 5px;
+  text-align: center;
+}
+
+div.product img {
+  width: 100%;
+  height: auto;
+  gap: 50%;
+}
+.button-cart {
+  border-style: none;
+  margin-left: 10px;
+  margin-right: 50px;
+  color:white;
+  background-color: #2874f0;
+}
+.ban{
+
+  column-gap: 60%;
+  flex-direction: column;
+  align-items: center;
+  width:100%;
+  padding-top: 150px;
+
+}
+.time{
+  Display:Flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-grow: 20px;
+
+
+  }
+  .time_child{
+    padding-right:10px;
+    justify-content: space-around;
+    padding: 20px;
+    
+  
+  }
+  .timer_child{
+    justify-content: center;
+    padding-top: 25px;
+  }
+  .timer{
+    align-content:center;
+    background-color: #2874f0;
+    height: 20px;
+    padding-right: 10px;
+    padding: 12px 30px 30px 15px;
+    color:white;
+    margin-left: 600px;
+    margin-top: 5px;
+  }
