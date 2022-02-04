@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset='utf-8'>
-  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-  <meta name='viewport' content='width=device-width, initial-scale=1'>
-  <title>Flipkart</title>
-  <link rel="stylesheet" href="header.css" />
-  <link
-    href="https://kit-pro.fontawesome.com/releases/v5.15.4/css/pro.min.css"
-    rel="stylesheet"/></head>
-   <body>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Flipkart</title>
+    <link rel="stylesheet" href="header.css" />
+    <link
+      href="https://kit-pro.fontawesome.com/releases/v5.15.4/css/pro.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <!--header part in navigation bar-->
     <div class="navigation">
       <nav class="Navigation_bar">
         <div class="header">
-          <img src="image/logo.png" alt="logo"/>
+          <img src="image/logo.png" alt="logo" />
         </div>
+
         <div class="searchbox">
           <input
             type="text"
@@ -24,7 +27,10 @@
             name="q"
             placeholder="search"
             class="search_box"
-            value=""/><button type="submit"><i class="fa fa-search"></i></button>
+            value=""
+          /><button class="Search_button" type="submit">
+            <i class="fa fa-search"></i>
+          </button>
         </div>
         <div>
           <button class="login" type="submit">Login</button>
@@ -33,87 +39,336 @@
           <a class="more">More</a>
         </div>
         <div>
-          <a><button class="button-cart"><i class="far fa-shopping-cart"></i>Cart</button></a>
-          </div>
+          <a
+            ><button class="button-cart">
+              <i class="far fa-shopping-cart"></i>Cart
+            </button></a
+          >
+        </div>
       </nav>
     </div>
     <!--products images-->
     <div class="product">
       <a target="_blank" href="image/offer.webp">
-      <img src="image/offer.webp" alt="offer">
-    </a>
-    <div class="desc"> Top Offer</div>
-    </div>  
+        <img src="image/offer.webp" alt="offer" />
+      </a>
+      <div class="desc">Top Offer</div>
+    </div>
     <div class="product">
       <a target="_blank" href="image/grocery.webp">
-        <img src="image/grocery.webp" alt="grocery">
+        <img src="image/grocery.webp" alt="grocery" />
       </a>
-      <div class="desc"> Grocery</div>
+      <div class="desc">Grocery</div>
     </div>
     <div class="product">
       <a target="_blank" href="image/mobiles.webp">
-        <img src="image/mobiles.webp" alt="mobiles">
+        <img src="image/mobiles.webp" alt="mobiles" />
       </a>
-      <div class="desc"> Mobiles</div>
+      <div class="desc">Mobiles</div>
     </div>
     <div class="product">
       <a target="_blank" href="image/fashion.webp">
-        <img src="image/fashion.webp" alt="Fashiion">
+        <img src="image/fashion.webp" alt="Fashiion" />
       </a>
-      <div class="desc"> fashion</div>
+      <div class="desc">fashion</div>
     </div>
     <div class="product">
       <a target="_blank" href="image/laptop.webp">
-        <img src="image/laptop.webp" alt="Laptop">
+        <img src="image/laptop.webp" alt="Laptop" />
       </a>
-      <div class="desc"> Electronics</div>
+      <div class="desc">Electronics</div>
     </div>
     <div class="product">
       <a target="_blank" href="image/home.webp">
-        <img src="image/home.webp" alt="home">
+        <img src="image/home.webp" alt="home" />
       </a>
-      <div class="desc"> Home</div>
+      <div class="desc">Home</div>
     </div>
     <div class="product">
       <a target="_blank" href="image/mobiles.webp">
-        <img src="image/appliance.webp" alt="appliance">
+        <img src="image/appliance.webp" alt="appliance" />
       </a>
-      <div class="desc"> Appliance</div>
+      <div class="desc">Appliance</div>
     </div>
     <div class="product">
       <a target="_blank" href="image/travel.webp">
-        <img src="image/travel.webp" alt="travel">
+        <img src="image/travel.webp" alt="travel" />
       </a>
-      <div class="desc"> Travel</div>
+      <div class="desc">Travel</div>
     </div>
     <div class="product">
       <a target="_blank" href="image/beauty.webp">
-        <img src="image/beauty.webp" alt="Beauty">
+        <img src="image/beauty.webp" alt="Beauty" />
       </a>
-      <div class="desc"> Beauty</div>
+      <div class="desc">Beauty</div>
     </div>
-  </div>
+
     <!--banner part -->
     <div class="banner">
-      <img class="ban" src="image/banner.jpg" alt="">
-      </div>
+      <img class="ban" src="image/banner.jpg" alt="" />
+    </div>
 
-    <!--timer-->
-    <div class="time">
-      <div class="time"><h2>Deal of the Day</h2> </div>
-      <div class="time_child" ><img src="image/timer.svg"></div>
-     <div class="timer_child"> <span>11
-             :
-      </span>
-    <span>
-      08
-      :
-    </span>
-  <span>18</span>
-<span>Left</span></div>
-      <div class="time">
-       <a><button class="timer" type="submit">VIEW ALL</button></a> </div>
+    <!-- header deal and timer-->
+    <div class="deal-container">
+      <div class="deal-child">
+        <h2>Deal of the Day</h2>
       </div>
-  </div>
+      <div class="deal-child">
+        <img src="image/timer.svg" />
+        <span>11 : </span>
+        <span> 08 : </span>
+        <span>18</span>
+        <span>Left</span>
+      </div>
+      <div class="deal-child">
+        <a><button class="timer" type="submit">VIEW ALL</button></a>
+      </div>
+    </div>
+    <hr />
+    <!--product of deals-->
+    <div class="main-deal">
+    <div class="Product-deal">
+      <div class="deal-image">
+       <img src="image/Blanket&comforter.jpeg" style="width:150px; height:130px;" />
+      </div>
+      <div class="name">
+        <h4>Blankets & Comforter</h4>
+      </div>
+      <div class="deal-desc">
+        <p class="off">Upto 75% OFF</p>
+        <p>Signature,Portico & more</p>
+      </div>
+      </div>
+      <div class="Product-deal">
+      <div class="deal-image">
+        <img src="image/bestofgrooming.jpeg" style="width:150px; height:130px;" />
+      </div>
+      <div class="name">
+        <h4>Best of grooming</h4>
+      </div>
+      <div class="deal-desc">
+        <p class="off">Min 50% OFF</p>
+        <p>Backacks</p>
+      </div>
+      </div>
+      <div class="Product-deal">
+      <div class="deal-image">
+        <img src="image/Literaturebook.jpeg" style="width:150px; height:130px;"/>
+      </div>
+      <div class="name">
+        <h4>Literatures Books</h4>
+      </div>
+      <div class="deal-desc">
+        <p class="off">Min 30% OFF</p>
+        <p>Ramchnadra Guha</p>
+      </div>
+      </div>
+      <div class="Product-deal">
+      <div class="deal-image">
+        <img src="image/tablas.jpeg" style="width:150px; height:130px;" />
+      </div>
+      <div class="name">
+        <h4>Tablas</h4>
+      </div>
+      <div class="deal-desc">
+        <p class="off">Upto 60% OFF</p>
+        <p>Explore Now!</p>
+      </div>
+      </div>
+      <div class="Product-deal">
+      <div class="deal-image">
+        <img src="image/watch.jpg" style="width:150px; height:130px;"/>
+      </div>
+      <div class="name">
+        <h4>Casio, fastrack & more</h4>
+      </div>
+      <div class="deal-desc">
+        <p class="off">20-60% OFF</p>
+        <p>Men & Women Watches</p>
+      </div>
+      </div>
+      <div class="Product-deal">
+      <div class="deal-image">
+        <img src="image/Fastrack.jpeg" style="width:150px; height:130px;"/>
+      </div>
+      <div class="name">
+        <h4>Casio, fastrack & more</h4>
+      </div>
+      <div class="deal-desc">
+        <p class="off">60% OFF</p>
+        <p>Men & Womens</p>
+      </div>
+    </div>
+    </div>
+    <!--header of footwear-->
+    <div class="footwear-container">
+      <div class="footwear-child">
+        <h2>Mens Footwear</h2>
+      </div>
+      <div class="footwear-child">
+        <a><button class="Foot-button" type="submit">VIEW ALL</button></a>
+      </div>
+    </div>
+    <hr />
+    <!--mens footwear -->
+    <div class="mens-footwear">
+      <div class="Product-footwear">
+        <div class="footwear-image">
+         <img src="image/Robbie Jones.jpeg" style="width:150px; height:130px;" />
+        </div>
+        <div class="nameF">
+          <h4>Robbie jones</h4>
+        </div>
+        <div class="footwear-desc">
+          <p class="off">Upto 57% OFF</p>
+          <p>Sneakers for men</p>
+        </div>
+        </div>
+          <div class="Product-footwear">
+          <div class="footwear-image">
+           <img src="image/Loafer.jpeg" style="width:150px; height:130px;" />
+          </div>
+          <div class="nameF">
+            <h4>T-Rocks</h4>
+          </div>
+          <div class="footwear-desc">
+          <p class="off">62% OFF</p>
+          <p>Loafer  For Men</p>
+        </div>
+        </div>
+          <div class="Product-footwear">
+          <div class="footwear-image">
+           <img src="image/foot1.jpeg" style="width:150px; height:130px;" />
+          </div>
+          <div class="nameF">
+            <h4>Bruton</h4>
+          </div>
+          <div class="footwear-desc">
+          <p class="off">80% OFF</p>
+          <p>Trendy Sports</p>
+        </div>
+        </div>
+          <div class="Product-footwear">
+          <div class="footwear-image">
+           <img src="image/foot2.jpeg" style="width:150px; height:130px;" />
+          </div>
+          <div class="nameF">
+            <h4>PUMA</h4>
+          </div>
+          <div class="footwear-desc">
+          <p class="off">Min 50% OFF</p>
+          <p>Running Shoes </p>
+        </div>
+        </div>
+        <div class="Product-footwear">
+          <div class="footwear-image">
+           <img src="image/foot3.jpeg" style="width:150px; height:130px;" />
+          </div>
+          <div class="nameF">
+            <h4>World Wear</h4>
+          </div>
+          <div class="footwear-desc">
+          <p class="off">Min 60% OFF</p>
+          <p>Sports Shoe</p>
+        </div>
+        </div>
+        <div class="Product-footwear">
+          <div class="footwear-image">
+           <img src="image/foot4.jpeg" style="width:150px; height:130px;" />
+          </div>
+          <div class="nameF">
+            <h4>Asian</h4>
+          </div>
+          <div class="footwear-desc">
+          <p class="off">Min 50% OFF</p>
+          <p>Cosko Sports</p>
+        </div>
+        </div>
+        </div>
+         <!--header of electronics-->
+    <div class="Electronics-container">
+      <div class="Electronics-child">
+        <h2>Best Of Electronics</h2>
+      </div>
+      <div class="Electronics-child">
+        <a><button class="Electronics-button" type="submit">VIEW ALL</button></a>
+      </div>
+    </div>
+    <hr />
+         <!--Best of electronics -->
+    <div class="Best-electronics">
+      <div class="Product-Electronics">
+        <div class="Electronics-image">
+         <img src="image/ZunVolt Electric.jpeg" style="width:150px; height:130px;" />
+        </div>
+        <div class="nameE">
+          <h4>ZunVolt Electric</h4>
+        </div>
+        <div class="Electronics-desc">
+          <p class="off">Upto 55% OFF</p>
+          <p>Steam Iron</p>
+        </div>
+        </div>
+        <div class="Product-Electronics">
+        <div class="Electronics-image">
+         <img src="image/Honor.jpeg" style="width:150px; height:130px;" />
+        </div>
+        <div class="nameE">
+          <h4>Honor</h4>
+        </div>
+        <div class="Electronics-desc">
+          <p class="off"> 09% OFF</p>
+          <p>Midnight Black 128GB</p>
+        </div>
+        </div>
+        <div class="Product-Electronics">
+        <div class="Electronics-image">
+         <img src="image/Food Processor.jpeg" style="width:150px; height:130px;" />
+        </div>
+        <div class="nameE">
+          <h4>Food Processor</h4>
+        </div>
+        <div class="Electronics-desc">
+          <p class="off">Upto 20% OFF</p>
+          <p>Bajaj Fx</p>
+        </div>
+        </div>
+        <div class="Product-Electronics">
+        <div class="Electronics-image">
+         <img src="image/omato.jpeg" style="width:150px; height:130px;" />
+        </div>
+        <div class="nameE">
+          <h4>Omato B11</h4>
+        </div>
+        <div class="Electronics-desc">
+          <p class="off">Upto 75% OFF</p>
+          <p>Smart Headphone</p>
+        </div>
+        </div>
+        <div class="Product-Electronics">
+        <div class="Electronics-image">
+         <img src="image/Bancroft.jpeg" style="width:150px; height:130px;" />
+        </div>
+        <div class="nameE">
+          <h4>Bancroft</h4>
+        </div>
+        <div class="Electronics-desc">
+          <p class="off">Upto 70% OFF</p>
+          <p>Adjustable</p>
+        </div>
+        </div>
+        <div class="Product-Electronics">
+        <div class="Electronics-image">
+         <img src="image/rivan.jpeg" style="width:150px; height:130px;" />
+        </div>
+        <div class="nameE">
+          <h4>Rivan</h4>
+        </div>
+        <div class="Electronics-desc">
+          <p class="off">Upto 77% OFF</p>
+          <p>Digital Watch</p>
+        </div>
+        </div>
+      </div>
   </body>
 </html>
