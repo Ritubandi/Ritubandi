@@ -1,50 +1,62 @@
+@media only screen and (max-width: 1600px) and (min-width: 0px)
+ {
 body {
   font-family: Roboto, Arial, sans-serif;
   margin: 0;
+  
 }
 
 /* Header/Logo Title */
 .header {
   display:flex;
-  min-width: 75px;
-  margin-left:350px;
-  margin-right: 0px;
-  width: 0%;
+  min-width: 80px;
+  margin-left:190px;
+  margin-bottom: 10px;
   height: 20px;
 
 }
-.Navigation_bar {
+
+.Navigation-bar {
   display:flex;
   background-color: #2874f0;
-  height: 60px;
+  height: 55px;
   align-items: center;
   padding-right: 20px;
   position:fixed;
-  width:100%;
+  width:105%;
 }
 
-.search_box{
+
+.search-box{
   width: 100%;
   border: none;
   outline: none;
+  height:34px;
+  
 }
-
-.Search_button{
+.Search-button{
+  outline:none;
   border:none;
+  height:36px;
   background-color: white;
+  
+}
+.Search-button .fa fa-search{
+ color:#2874f0;  /*change the colour of icon*/
+
 }
 .searchbox {
   
   display:flex;
   border-radius: 08px 01px 01px 08px;
-  border:0;
-  outline: 0 none;
-  font-size: 14px;
-  margin:30px 20px 0px 06px;
-  width: 20%;
+  outline: none;
+  font-size: 30px;
+  margin:30px 20px 20px 10px;
+  width: 35%;
   height: 28px;
   float:center;
   padding-bottom: 20px;
+  
  
 }
 .megni{
@@ -57,9 +69,13 @@ body {
   display: flex;
   height: 30px;
   color: cornflowerblue;
-  padding: 05px 35px 05px 35px;
-  margin-top: 5px;
-  margin-left: 100px;
+  padding: 07px 38px 07px 35px;
+  margin-top: 0px;
+  margin-left: 190px;
+  background-color: white;
+  font-weight: bold;
+  outline: none;
+  border:none;
 }
 .far fa-shopping-cart {
   text-align: center;
@@ -73,26 +89,30 @@ body {
   margin-right: 50px;
   color: white;
 }
-div.product {
-
-  padding-left: 45px;
-  margin: 10px;
-  border: 1px;
-  float: left;
-  width: 95px;
-  height: 1px;
-  align-items:center;
-  padding-top: 80px;
+.parent-product{
+  margin-left: 95px;
+  
+  
 }
-div.desc {
+.product {
+
+float: left;
+ padding: 60px 25px;
+  margin: 10px 11px;
+
+
+}
+div .desc {
   padding: 5px;
-  text-align: center;
+  font-weight:bold;
+  font-size: small;
 }
 
 div.product img {
-  width: 100%;
-  height: auto;
-  gap: 50%;
+  width: 95%;
+  height:66px;
+
+  
 }
 .button-cart {
   border-style: none;
@@ -101,14 +121,14 @@ div.product img {
   color:white;
   background-color: #2874f0;
 }
-.ban{
-
-  column-gap: 60%;
-  flex-direction: column;
-  align-items: center;
+.parent-banner{
+  display:inline-block;
+  background-color: grey;
   width:100%;
-  padding-top: 150px;
-
+  height: 250px;
+}
+.ban{
+  width:100%;
 }
 /* header of deal*/
   .deal-container
@@ -175,14 +195,16 @@ div.product img {
   {
     background-color: #2874f0;
     height: 20px;
-    padding: 12px 30px 30px 15px;
+    padding: 15px 35px 30px 15px;
     color:white;
     border: none;
+    font-weight:bold;
    }
    .Foot-button:hover
 {
   background-color:#004463;
-  transition: 2s;
+  transition: 0s;
+  transform: scale(1.1);
 }
    /* Mens Footwear*/
   
@@ -262,6 +284,6 @@ div.product img {
      color:rgb(79, 156, 79)
    }
 
-
+  }
 
   
