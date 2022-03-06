@@ -2,8 +2,7 @@
  {
 body {
   font-family: Roboto, Arial, sans-serif;
-  margin: 0;
-  
+  margin: 0;  
 }
 
 /* Header/Logo Title */
@@ -123,10 +122,6 @@ body {
    height: 70px;
    width: 100%;
    margin-left:5px;
-
-  
-
-  
 }
 .button-cart {
   border-style: none;
@@ -137,75 +132,114 @@ body {
 }
 .parent-banner{
   display:inline-block;
-  background-color: grey;
-  width:100%;
-  height: 250px;
+  background-color: aliceblue;
+  width:120%;
+  height: 270px;
+  margin-right:20px;
+
 }
 .ban{
+  position:absolute;
   width:100%;
+  margin-top:11px;
+ 
 }
 /* header of deal*/
+.parent-container{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content:space-evenly;
+
+}
   .deal-container
   {
     display:flex;
     flex-direction: row;
-    justify-content: space-between;
-  }
-  .deal-child img
+    width: 120%;
+    height:50px;
+    border-bottom: 1px solid silver;
+    padding:12px;
+
+    }
+  .child
   {
-   justify-content: baseline;
+   margin-right: 850px;
+   margin-left: 10px;
     }
   
   .timer
   {
+    display:flex;
+    flex-direction: row;
     background-color: #2874f0;
-    height: 20px;
-    padding: 12px 30px 30px 15px;
+    height: 30px;
+    padding: 15px 20px 30px 20px;
     color:white;
     border:none;
-
-   }
-   .timer:hover
-   {
-     background-color:#004463;
-     transition: 2s;
+    outline:none;
+    margin-top: 05px;
+    margin-right:0px;
+    border-radius: 5%;
+    font-weight: bold;
+    }
    }
    /* deals of the day product*/
+
+   .main-deal{
+     display:flex;
+   }
   
   .Product-deal{
-     width:10%;
+     width:15%;
      background-color: white;
      border-radius: 1px;
-     margin:40px;
+     margin:30px;
      font-size: small;
      box-shadow: 2px 2px  10px white;
      display:inline-block;
-    
+     justify-content: space-evenly;
    }
-  
+   
+
    .deal-image img
    {
      width: 100%;
      border-radius: 1px;
      height: auto;
+     border-radius: 1%;
+     transition: transform .1s;
    }
-   .name{
+   .deal-image img:hover
+   {
+     transform: scale(1.2);
+   }
+   .name
+   {
      text-align: center;
    }
-   .deal-desc{
+   .deal-desc
+   {
     text-align:center;
    }
-   .deal-desc .off{
+   .deal-desc .off
+   {
      color:rgb(79, 156, 79)
+   }
+   .deal-special{
+     margin-top: 15px;
+     padding-right:10px;
+     height:50px;
+     width: 15%;
    }
   /* Header of Mens footwear*/
   .footwear-container
   {
     display:flex;
     flex-direction: row;
-    justify-content: space-between;
+    width: 150%;
+    height:50px;
   }
- .Foot-button
+ /*.Foot-button
   {
     background-color: #2874f0;
     height: 20px;
@@ -219,14 +253,14 @@ body {
   background-color:#004463;
   transition: 0s;
   transform: scale(1.1);
-}
+}*/
    /* Mens Footwear*/
   
   .Product-footwear{
      width:10%;
      background-color: white;
      border-radius: 1px;
-     margin:40px;
+     margin:20px;
      font-size: small;
      box-shadow: 2px 2px  10px white;
      display:inline-block;
@@ -235,9 +269,14 @@ body {
   
    .footwear-image img
    {
-     width: 100%;
+     width: 120%;
      border-radius: 1px;
      height: auto;
+     transition: transform .1s;
+   }
+   .footwear-image img:hover{
+     transform: scale(1.1);
+
    }
    .nameF{
      text-align: center;
@@ -250,14 +289,16 @@ body {
    }
 
    /* Header of Best Electronics*/
-  .Electronics-container
+    .Electronics-container
   {
     display:flex;
     flex-direction: row;
-    justify-content: space-between;
+    width: 150%;
+    height:50px;
+  
   }
- .Electronics-button
-  {
+/* .Electronics-button
+{
     background-color: #2874f0;
     height: 20px;
     padding: 12px 30px 30px 15px;
@@ -268,14 +309,19 @@ body {
 {
   background-color:#004463;
   transition: 2s;
-}
+}*/
    /* Best of Electronics*/
+
+   .Best-electronics{
+     margin-top:0px;
+    
+   }
   
   .Product-Electronics{
-     width:10%;
+    width:10%;
      background-color: white;
      border-radius: 1px;
-     margin:40px;
+     margin:20px;
      font-size: small;
      box-shadow: 2px 2px  10px white;
      display:inline-block;
@@ -284,9 +330,13 @@ body {
   
    .Electronics-image img
    {
-     width: 100%;
-     border-radius: 1px;
-     height: auto;
+    width: 120%;
+    border-radius: 1px;
+    height: auto;
+    transition: transform .2s;
+   }
+   .Electronics-image img:hover{
+     transform: scale(1.2)
    }
    .nameE{
      text-align: center;
@@ -297,7 +347,82 @@ body {
    .Electronics-desc .off{
      color:rgb(79, 156, 79)
    }
-
-  }
-
-  
+   /* Content Part*/
+   .cont{
+     margin-top:12px;
+     padding-top:40px;
+     background-color: aliceblue;
+   }
+   .content{
+     padding-top: 10px;
+     background-color:white;
+   }
+   .content-heading{
+     color:#848484;
+     text-transform: uppercase;
+     margin-right:3px;
+   }
+   .content-links{
+     color:#848484;
+     text-decoration:none;
+     margin:2px;
+     font-size: small;
+     padding-top: 10px;
+   }
+   .content-head{
+     text-align: left;
+     font-size: 12px;
+     color:#848484;
+   }
+   .head3{
+     color:rgb(133, 124, 124);
+     font-weight: bold ;
+     font-size:14px;
+     margin-bottom: 10px;
+   }
+   .foot{
+     display:inline-flex;
+     grid-template-rows: auto;
+     background-color:#141e30;
+     justify-content: space-evenly;
+     margin-bottom: 10px;
+     margin-top: 20px;
+     padding-top: 20px;
+     padding-bottom: 30px;
+   }
+   .foot-container{
+     display:block;
+     grid-template-columns: auto;
+     flex-direction:column;
+     justify-items: center;
+     padding-left:0px;
+     margin-left:0px;
+   }
+   .foot-link{
+    color: white;
+    font-size: 13px;
+    margin-top: 10px;
+   }
+   .foot-head{
+     color:#878787;
+     font-size:15px;
+     font-weight: 400;
+     margin-bottom: 9px;
+   }
+   .foot-para-link{
+      justify-content: center;
+      padding-top: 0px;
+      color:white;
+      font-size: 13px;
+   }
+   .bottom-container{
+    grid-template-rows: auto;
+    justify-content:space-evenly; 
+    background-color: #141e30;
+   }
+   .bottom-image{
+     display: inline-flex;
+   color: white;
+   padding:10px;
+   margin-top:50px;  
+  }  
